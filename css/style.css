@@ -34,7 +34,7 @@ main {
   width: 100vw;
   height: 100vw;
   min-height: 200vh;
-  min-width: 200vh;
+  min-width: 390vh;
   position: absolute;
   top: 55%;
   left: 50%;
@@ -103,7 +103,6 @@ img {
     filter: blur(0);
 	}
 }
-
 
 @keyframes toBlack {
 	0% {
