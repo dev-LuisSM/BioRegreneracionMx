@@ -104,6 +104,19 @@ img {
 	}
 }
 
+
+@keyframes toBlack {
+	0% {
+		background-color: rgba(0, 0, 0, 1);
+    filter: blur(5);
+	}
+	100% {
+		background-color: rgba(0, 0, 0, 0.184);
+    filter: blur(0);
+	}
+}
+
+
 @keyframes fadeIn {
 	0% {
 		opacity: 0;
